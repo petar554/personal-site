@@ -14,7 +14,36 @@
     <title>Portfolio</title>
   </head>
   <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- positioned in the top left corner, by default -->
+      <a href="#" class="navbar-brand">Petar</a>
+      <!-- data-toggle class will opne hamburger menu -->
+      <!-- data-target points on element-menu which we wanna toggle -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarMenu"
+      >
+        <!-- this give us hamburger manu -->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- menu in navbar is positioned in column direction, with .collapse navbar-collapse it will disappear -->
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <!-- navbar wraper -->
+        <ul class="navabr-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item active"><a class="nav-link" href="#">Work</a></li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <script src="main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
