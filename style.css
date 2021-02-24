@@ -1,0 +1,32 @@
+/* navbar */
+@media (min-width: 991px) {
+  ul li {
+    display: inline-block;
+  }
+}
+
+.navbar {
+  background-color: black;
+  max-width: 100%;
+}
+a.navbar-brand {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.navbar .container-fluid {
+  padding: 10px 100px;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+ul li a {
+  color: #fff;
+  padding-bottom: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* home section */
