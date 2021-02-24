@@ -9,6 +9,7 @@
   background-color: black;
   max-width: 100%;
 }
+
 a.navbar-brand {
   font-size: 30px;
   font-weight: 400;
@@ -30,3 +31,14 @@ ul li a {
 }
 
 /* home section */
+.home {
+  height: 100vh;
+  background: url("images/File_000.jpeg") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  color: #fff;
+  min-height: 800px;
+}
