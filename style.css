@@ -1,3 +1,7 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
 /* navbar */
 @media (min-width: 991px) {
   ul li {
@@ -33,6 +37,7 @@ ul li a {
 /* home section */
 .home {
   height: 100vh;
+  min-height: 500px;
   background: url("images/File_000.jpeg") no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -40,5 +45,20 @@ ul li a {
   background-size: cover;
   background-size: cover;
   color: #fff;
-  min-height: 800px;
+}
+
+section.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.home-content h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+div.home-content h3 {
+  font-weight: 700;
+  font-size: 2rem;
 }
