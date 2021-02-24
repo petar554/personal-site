@@ -4,7 +4,7 @@
 
 /* navbar */
 @media (min-width: 991px) {
-  ul li {
+  ul.navabr-nav li {
     display: inline-block;
   }
 }
@@ -19,26 +19,36 @@ a.navbar-brand {
   font-weight: 400;
 }
 
+a.navbar-brand span {
+  color: #b9910f;
+}
+
 .navbar .container-fluid {
   padding: 10px 100px;
 }
 
-ul {
+ul.navabr-nav {
   margin-bottom: 0;
+  list-style: none;
 }
 
-ul li a {
+ul.navabr-nav li a {
   color: #fff;
   padding-bottom: 0;
   font-size: 20px;
   font-weight: 400;
+  transition: color 2 ease;
+}
+
+ul li a:hover {
+  color: #b9910f;
 }
 
 /* home section */
 .home {
   height: 100vh;
   min-height: 500px;
-  background: url("images/File_000.jpeg") no-repeat fixed;
+  background: url("images/File_000 copy 2.jpeg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,5 +70,6 @@ div.home-content h1 {
 
 div.home-content h3 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #b9910f;
 }
