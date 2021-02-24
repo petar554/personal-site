@@ -44,6 +44,10 @@ ul li a:hover {
   color: #b9910f;
 }
 
+.scrolling-active {
+  background-color: #fff;
+}
+
 /* home section */
 .home {
   height: 100vh;
