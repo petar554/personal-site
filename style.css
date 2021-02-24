@@ -45,7 +45,8 @@ ul li a:hover {
 }
 
 .scrolling-active {
-  background-color: #fff;
+  background: transparent;
+  color: blue;
 }
 
 /* home section */
