@@ -68,6 +68,10 @@ section.home {
   justify-content: center;
 }
 
+div.home-additional-content {
+  display: inline-block;
+}
+
 div.home-content h1 {
   font-weight: 700;
   font-size: 5rem;
@@ -79,4 +83,27 @@ div.home-content h2 {
   color: #b9910f;
   -webkit-text-stroke-width: 0.1px;
   -webkit-text-stroke-color: black;
+}
+
+.typing {
+  position: relative;
+}
+
+.typing::after {
+  position: absolute;
+  content: "";
+  height: 90%;
+  width: 1px;
+  right: -10px;
+  border-right: 2px solid white;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
