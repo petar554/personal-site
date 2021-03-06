@@ -44,8 +44,12 @@ ul.navbar-nav li a:hover {
   color: #b9910f;
 }
 
-.scrolling-active {
+.nav-scrolling-bg {
   background: #b9910f;
+}
+
+.nav-scrolling-color {
+  color: black !important;
 }
 
 /* home section */
